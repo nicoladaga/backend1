@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "12345678",
+    "title": "productazo",
+    "description": "un producto muy chiquito con aires de grandeza",
+    "price": 15,
+    "stock": 1
+  },
+  {
+    "_id": "85478524",
+    "title": "productito",
+    "description": "un producto muy grandote con aires de chiquito",
+    "price": 25,
+    "stock": 3
+  }
+]

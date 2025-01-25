@@ -8,11 +8,19 @@
     "birthday": "25/01/1985"
   },
   {
-    "_id": "422cb65d34ddad1edcfc4dbb",
+    "_id": "f3b7dcb9cbffd85ce4d3b39b",
     "name": "Bruno",
     "lastName": "Díaz",
     "password": "batman",
     "email": "batmandiaz@gmail.com",
     "birthday": "02/06/1995"
+  },
+  {
+    "_id": "f1b53e61bc6c2ead1d72afba",
+    "name": "Angelica",
+    "lastName": "Pimpinela",
+    "password": "localhost4",
+    "email": "pimpa@gmail.com",
+    "birthday": "02/05/1095"
   }
 ]

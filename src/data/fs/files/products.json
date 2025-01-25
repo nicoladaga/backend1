@@ -1,16 +1,11 @@
 [
   {
-    "_id": "12345678",
-    "title": "productazo",
-    "description": "un producto muy chiquito con aires de grandeza",
-    "price": 15,
-    "stock": 1
-  },
-  {
-    "_id": "85478524",
-    "title": "productito",
-    "description": "un producto muy grandote con aires de chiquito",
-    "price": 25,
-    "stock": 3
+    "_id": "781cb6ee19aee977bceaff16",
+    "title": "Croquetas Premium para Perros Adultos",
+    "description": "Alimento balanceado para perros adultos, sabor carne y pollo.",
+    "category": "alimentos",
+    "thumbnails": ["https://example.com/croquetas-perros.jpg"],
+    "price": 20.99,
+    "stock": 50
   }
 ]

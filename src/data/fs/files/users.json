@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "52bdd9b4ccbb573accb55f3f",
+    "name": "Antonio",
+    "lastName": "Stark",
+    "password": "stark123",
+    "email": "tonito@gmail.com",
+    "birthday": "25/01/1985"
+  },
+  {
+    "_id": "422cb65d34ddad1edcfc4dbb",
+    "name": "Bruno",
+    "lastName": "Díaz",
+    "password": "batman",
+    "email": "batmandiaz@gmail.com",
+    "birthday": "02/06/1995"
+  }
+]

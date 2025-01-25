@@ -1,11 +1,227 @@
 [
   {
-    "_id": "781cb6ee19aee977bceaff16",
-    "title": "Croquetas Premium para Perros Adultos",
-    "description": "Alimento balanceado para perros adultos, sabor carne y pollo.",
-    "category": "alimentos",
-    "thumbnails": ["https://example.com/croquetas-perros.jpg"],
-    "price": 20.99,
-    "stock": 50
+    "_id": "bfbc2b2a442edb2daedfd19a",
+    "title": "Alimento Old Prince Premium de Pollo y Carne Perro Adulto Raza Mediana - 20 Kg",
+    "description": "La selección de un alimento adecuado para tu mascota es muy importante para garantizar su crecimiento, desarrollo y salud. Con esta opción de Old Prince podrás cubrir las necesidades nutricionales y energéticas de tu perro",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/189030-1000-1000/132163.jpg?v=637965320413700000"
+    ],
+    "price": 41250,
+    "stock": 2
+  },
+  {
+    "_id": "a9cb7f12d10d55aeb0faaad9",
+    "title": "Alimento Excellent Formula para Perro Adulto - 20 Kg",
+    "description": "Alimento Excellent Formula para Perro Adulto: Comida completa y balanceada diseñada para perros adultos, elaborada con ingredientes de alta calidad para ofrecer una nutrición óptima",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/196570-1000-1000/150051.jpg?v=638524997133970000",
+      "https://puppis.vteximg.com.br/arquivos/ids/198642-1000-1000/150051-138137.png?v=638714187059170000"
+    ],
+    "price": 56800,
+    "stock": 3
+  },
+  {
+    "_id": "dcb63636bfeb46fc73e4cad4",
+    "title": "Alimento Royal Canin para Perro Mini Ageing 12+ - 1 Kg",
+    "description": "Alimento para perros Seniors de talla pequeña (peso adulto hasta 10 kg), a partir de los 12 años de edad. Royal Canin Mini Ageing 12+ contribuye a favorecer un envejecimiento saludable en perros de talla pequeña, ya que contiene EPA/DHA y un exclusivo complejo de antioxidantes que ayuda a neutralizar los radicales libres",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/172571-1000-1000/156179-1.jpg?v=637350102372430000",
+      "https://puppis.vteximg.com.br/arquivos/ids/172572-1000-1000/156179-2.jpg?v=637350102377300000",
+      "https://puppis.vteximg.com.br/arquivos/ids/172573-1000-1000/156179-3.jpg?v=637350102381330000",
+      "https://puppis.vteximg.com.br/arquivos/ids/172574-1000-1000/156179-4.jpg?v=637350102385900000",
+      "https://puppis.vteximg.com.br/arquivos/ids/172575-1000-1000/156179-5.jpg?v=637350102390900000"
+    ],
+    "price": 11650,
+    "stock": 3
+  },
+  {
+    "_id": "23b61eabec30ab938cd2c3b7",
+    "title": "Alimento Excellent Pollo Y Arroz para Gato - 7,5 Kg",
+    "description": "Excellent Gato Adulto Pollo Y Arroz es un alimento Premium para gatos adultos mayores de un año. Este alimento tiene ingredientes de alta calidad que permiten mantener un pH adecuado en la orina que contribuye a impedir la formación de cálculos y cristales. Tiene una relación adecuada de proteínas y calorías, disminuyendo la masa corporal grasa, evitando los efectos del sobrepeso.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/196210-1000-1000/150020.jpg?v=638482806949900000"
+    ],
+    "price": 11650,
+    "stock": 3
+  },
+  {
+    "_id": "11d796c4f782cba6abc5a97f",
+    "title": "Alimento Excellent Gato Sterilized Pollo - 1 kg",
+    "description": "El Alimento Excellent Gato Sterilized Pollo está especialmente diseñado para satisfacer las necesidades nutricionales específicas de los gatos castrados. Además, ofrece una combinación de ingredientes adecuada para que tu gato tenga una condición corporal ideal, ayudando en el control de bolas de pelo y manteniendo un tracto urinario saludable.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/196204-1000-1000/150065--1-.jpg?v=638482804999070000"
+    ],
+    "price": 10800,
+    "stock": 15
+  },
+  {
+    "_id": "f69dffcbf2b84bf024e5ee1e",
+    "title": "Lata Homemade Delights Atlantic Sardina Gato Adulto - 90 gr",
+    "description": "La Lata Homemade Delights Atlantic Sardina es una comida húmeda para gatos adultos que combina el delicioso sabor de la sardina con ingredientes naturales, ideales para mantener la salud y bienestar de tu gato.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/195410-1000-1000/161008.jpg?v=638358397275970000"
+    ],
+    "price": 2250,
+    "stock": 8
+  },
+  {
+    "_id": "0031b6641bbdce312b7a6fdf",
+    "title": "Alimento Peces Shulet Agua Fria Escamado - 20 Gr",
+    "description": "El alimento para peces Shulet Agua Fría Escamado está diseñado específicamente para peces de agua fría, como los carassius y goldfish. Este alimento en escamas ofrece una nutrición completa y balanceada, con ingredientes que garantizan fácil digestión y alta flotabilidad, reduciendo los residuos en el agua.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/158148-600-600/100002.jpg?v=635967649507170000"
+    ],
+    "price": 5800,
+    "stock": 9
+  },
+  {
+    "_id": "d0bacd090ebfc40c66cd5fa8",
+    "title": "Mix para Loros Nelsoni Ranch - 600Gr",
+    "description": "El Mix para loros de Nelsoni Ranch provee una optima nutrición con todas las vitaminas y nutrientes que las mejores semillas pueden dar, manteniendo a su ave vital y feliz. Especialmente formulado para psitácidos de porte mediano a grande como guacamayos, loros y entre otros.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/168659-1000-1000/266071.png?v=637086495391100000"
+    ],
+    "price": 3000,
+    "stock": 8
+  },
+  {
+    "_id": "f10e1ca3a4cdcd2c8ad9c565",
+    "title": "Stick De Vegetales Para Canario - 40 Gr",
+    "description": "¡Nutrición y sabor en cada bocado con el Stick de Vegetales para Canario! Este delicioso y saludable snack está especialmente diseñado para satisfacer las necesidades nutricionales de los canarios, combinando una mezcla equilibrada de vegetales naturales y vitaminas esenciales. Fácil de colocar en la jaula, este stick es perfecto para fomentar la actividad y el bienestar diario de tu canario, ofreciendo una fuente natural de energía y nutrientes.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/166839-1000-1000/242095.jpg?v=636957681246770000"
+    ],
+    "price": 3350,
+    "stock": 9
+  },
+  {
+    "_id": "fedb0b5efd7879e6dd7f22ad",
+    "title": "Alimento Nelsoni Ranch Para Conejos - 750Gr",
+    "description": "El Balanceado para Conejos de Nelsoni Ranch provee una optima nutrición con todas las vitaminas y nutrientes, manteniendo a su roedor vital y feliz. Especialmente formulado para diferentes variedades de conejos.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/168652-1000-1000/166014.png?v=637086487210600000"
+    ],
+    "price": 2800,
+    "stock": 10
+  },
+  {
+    "_id": "a4baf806193ef9fab624ab25",
+    "title": "Antipulgas Y Garrapatas Bravecto Para Perros - 2 a 4,5 Kg",
+    "description": "Para el tratamiento y prevención de infestaciones con pulgas y garrapatas en perros durante 12 semanas.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/167383-1000-1000/366255.jpg?v=637014017122630000"
+    ],
+    "price": 26100,
+    "stock": 11
+  },
+  {
+    "_id": "e834b61f0e5ee6b7aefefa5d",
+    "title": "Condro Vet Force HA Blis x10c Vetanco - 10 Comp",
+    "description": "Condrovet® Force HA es un complemento dietario recomendado para proteger las articulaciones de perros. El Condroitín sulfato y la Glucosamina HCI son componentes fundamentales de la matriz del cartílago articular y ayudan a mantener la funcionalidad y movilidad de las articulaciones.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/196867-1000-1000/350029.jpg?v=638569177303400000"
+    ],
+    "price": 21900,
+    "stock": 13
+  },
+  {
+    "_id": "dddde237a42ae031bbebe5ff",
+    "title": "Ohm Holliday Jeringa Para Gato - 7 Gr",
+    "description": "La Jeringa Ohm Holliday es un innovador complemento natural para el manejo de la ansiedad en gatos. Este producto presenta una fórmula en pasta palatable, diseñada para ser administrada de manera fácil y efectiva mediante una jeringa dosificadora con punta ajustable.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/174680-1000-1000/343016.jpg?v=637452603377600000"
+    ],
+    "price": 9900,
+    "stock": 15
+  },
+  {
+    "_id": "29dfd31c0328eebbbcd96cea",
+    "title": "Suplemento Vitamínico Kualcos Kualcovit B Para Perro y Gato - 100 Ml",
+    "description": "El complejo vitamínico B es indispensable para mantener la integridad funcional del sistema nervioso central, mucosas, piel y pelo. El Kualcovit B jarabe está indicado para combatir estados de astenia, anorexia e irritabilidad y como coadyuvante durante los periodos de gestación, lactancia, crecimiento o convalecencia.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/174695-1000-1000/366063.jpg?v=637452603420170000"
+    ],
+    "price": 9900,
+    "stock": 12
+  },
+  {
+    "_id": "2a17bc0f2b9a94fadaf9a5ad",
+    "title": "Colotrin Pasta Palatable +HA Para Perro - 200 Gr.",
+    "description": "COMPLEMENTO DIETARIO - CONDROPROTECTORCon Ácido Hialurónico, Condroitín, Glucosamina, MSM, Omega3, Magnesio.PREVENCIÓN INTEGRAL PARA EL DESGASTE ARTICULAR - PASTA PALATABLE",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/166311-1000-1000/371073.png?v=636893821006900000"
+    ],
+    "price": 9900,
+    "stock": 14
+  },
+  {
+    "_id": "bccd3cca9fe3813ab44daa55",
+    "title": "Bloque Vitaminico Mineral Porta para Aves - 30gr",
+    "description": "¡Mantén a tus aves saludables y activas con el Bloque Vitaminico Mineral Porta para Aves! Este suplemento esencial combina una mezcla equilibrada de vitaminas y minerales para fortalecer el sistema inmunológico, mejorar el plumaje y apoyar la salud general de tus aves. Su diseño práctico es ideal para jaulas, ya que se puede colocar fácilmente para que tu ave lo consuma cuando lo necesite.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/173431-1000-1000/135012.jpg?v=637396733995370000"
+    ],
+    "price": 3800,
+    "stock": 16
+  },
+  {
+    "_id": "dbca383ae2c1d7d2afe99393",
+    "title": "Feline Fullspot",
+    "description": "Feline Fullspot es una solución antiparasitaria tópica especialmente formulada para proteger a los gatos contra parásitos internos y externos. Su potente fórmula combina tres ingredientes activos: Imidacloprid, Ivermectina y Praziquantel, que trabajan juntos para eliminar pulgas, garrapatas, ácaros, y parásitos intestinales como lombrices y tenias.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/167381-1000-1000/361072.jpg?v=637014017114200000"
+    ],
+    "price": 16110,
+    "stock": 17
+  },
+  {
+    "_id": "cbb717170afdcc96c31abbdf",
+    "title": "Bravecto Spot On Gatos - 2,8 a 6,25 Kg",
+    "description": "Bravecto® Spot-On para Gatos es un tratamiento de fácil aplicación diseñado para proteger a tu gato contra pulgas, garrapatas y ácaros del oído durante un periodo de hasta 12 semanas. Su fórmula activa, fluralaner, actúa eliminando estos parásitos al interferir con su sistema nervioso. El producto se presenta en una pipeta con el sistema Twist & Use, lo que permite una aplicación rápida y sencilla sin necesidad de complicadas preparaciones. Para gatos de hasta 6.25 kg, basta con aplicar la pipeta en un solo punto en la base del cráneo. Si el gato pesa más, la dosis se distribuye en dos puntos diferentes.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/173852-1000-1000/366261.jpg?v=637414752869500000"
+    ],
+    "price": 34110,
+    "stock": 18
+  },
+  {
+    "_id": "4ca46cedec94174b5a49649a",
+    "title": "Pipeta Frontline Plus para Gatos",
+    "description": "La Pipeta Frontline Plus para Gatos es un tratamiento efectivo contra pulgas y garrapatas, especialmente diseñado para proteger a tu gato de estos parásitos durante todo un mes. Esta pipeta contiene dos ingredientes activos: fipronil, que elimina pulgas y garrapatas adultas, y S-metopreno, un regulador del crecimiento de insectos que previene el ciclo de vida de las pulgas eliminando sus huevos y larvas, ayudando a evitar futuras infestaciones.",
+    "category": "Salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/170191-1000-1000/373012.png?v=637142662154000000"
+    ],
+    "price": 6900,
+    "stock": 19
+  },
+  {
+    "_id": "f0b9a47cf1bc91302dea4eee",
+    "title": "Alimento Tetra Betta Mini Pellets - 4,5 Gr",
+    "description": "El Tetra Betta Mini Pellets es un alimento premium diseñado específicamente para peces Betta, ideal para resaltar sus colores vibrantes y promover su salud general.",
+    "category": "Alimentos",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/167811-1000-1000/200843.jpg?v=637039833785270000"
+    ],
+    "price": 8300,
+    "stock": 8
   }
 ]

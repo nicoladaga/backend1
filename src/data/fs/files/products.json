@@ -223,5 +223,240 @@
     ],
     "price": 8300,
     "stock": 8
+  },
+  {
+    "_id": "aed43f264c2e1f2e0adefec5",
+    "title": "Juguete para Perro Cancat Pelota de Rugby - Unico",
+    "description": "La Pelota de Rugby Cancat es un juguete interactivo ideal para perros que buscan diversión y estimulación mental",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/198362-1000-1000/212124.jpg?v=638694383308400000"
+    ],
+    "price": 3100,
+    "stock": 5
+  },
+  {
+    "_id": "0ceacb4daf437ddae4b324ad",
+    "title": "Juguete Jirafa Cancat - Unico",
+    "description": "El Juguete Jirafa Cancat es un peluche de felpa diseñado específicamente para perros pequeños y medianos.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/198413-1000-1000/212093.jpg?v=638695285042170000"
+    ],
+    "price": 9100,
+    "stock": 2
+  },
+  {
+    "_id": "c58a1eeedcfc3f08d5279af3",
+    "title": "Pack de Pelotas x6 Cancat",
+    "description": "El Pack de Pelotas x6 Cancat es un conjunto de seis pelotas de 3.5 cm diseñadas para mantener a los gatos entretenidos y activos.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/198427-1000-1000/212100.jpg?v=638695285094130000"
+    ],
+    "price": 4900,
+    "stock": 3
+  },
+  {
+    "_id": "c015bcd4d6a5ef9bfd9dd250",
+    "title": "Almohadon WePets Rectangular Beige",
+    "description": "El Almohadón WePets Rectangular Beige es una opción práctica y elegante para el descanso de tu mascota.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/173442-1000-1000/235060.jpg?v=637396734051000000"
+    ],
+    "price": 45450,
+    "stock": 4
+  },
+  {
+    "_id": "a6e57ff50b9eccbfee5f9420",
+    "title": "Rascador Grey Triangle Cancat ",
+    "description": "El Rascador Grey Triangle Cancat es un accesorio funcional y elegante, diseñado especialmente para el bienestar de tu gato. ",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/198423-1000-1000/212113.jpg?v=638695285076830000"
+    ],
+    "price": 118000,
+    "stock": 5
+  },
+  {
+    "_id": "6ece9bce210ebe3bb49a0f3b",
+    "title": "Cucha Durapets Azul",
+    "description": "La Cucha Durapets, está pensada para darle a tu mascota un espacio cómodo y sobre todo seguro.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/176409-1000-1000/229274.jpg?v=637546239841870000"
+    ],
+    "price": 81905,
+    "stock": 6
+  },
+  {
+    "_id": "97cbafd7a4e650e9aec43d5f",
+    "title": "Bebedero Zeus Cascada",
+    "description": "El Bebedero Zeus Cascada es una fuente de agua para mascotas que proporciona un flujo continuo y filtrado de agua fresca, ayudando a mantener a tu mascota hidratada y saludable.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/193795-1000-1000/243756.jpg?v=638247648939200000"
+    ],
+    "price": 117250,
+    "stock": 7
+  },
+  {
+    "_id": "6d30d68c75d1eccf0cbe6ead",
+    "title": "Piloto Ajustable Capitan América",
+    "description": "El Piloto Ajustable Capitán América para perro es una prenda diseñada para proteger a tu mascota de la lluvia mientras le da un toque divertido y de superhéroe.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/196904-1000-1000/233218.jpg?v=638569977505530000",
+      "https://puppis.vteximg.com.br/arquivos/ids/196906-1000-1000/233218_3.jpg?v=638569977830570000"
+    ],
+    "price": 37300,
+    "stock": 8
+  },
+  {
+    "_id": "7af3a54fccf970cd05dfb189",
+    "title": "Polera Corderito Kika Azul",
+    "description": "La Polera Corderito Kika Azul es una prenda ideal para proteger a tu mascota en los días más fríos. Está confeccionada con un material suave y cálido, diseñado específicamente para garantizar comodidad y libertad de movimiento.",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/197663-1000-1000/229344.jpg?v=638604454134630000",
+      "https://puppis.vteximg.com.br/arquivos/ids/197682-1000-1000/229344-3.jpg?v=638604454236100000"
+    ],
+    "price": 10890,
+    "stock": 9
+  },
+  {
+    "_id": "04892e5d5c2aee0812f0fd55",
+    "title": "Dispenser de Alimeto M-Pets 1500 Ml",
+    "description": "Dispensador de alimentos para perro o gato, recarga el alimento de tu manera más eficientemente",
+    "category": "accesorios",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/197178-1000-1000/236178.jpg?v=638594301483270000",
+      "https://puppis.vteximg.com.br/arquivos/ids/197187-1000-1000/236178-2.jpg?v=638594301526630000"
+    ],
+    "price": 33550,
+    "stock": 10
+  },
+  {
+    "_id": "df9fbcc8b04c0e37d68e717b",
+    "title": "Corta Uñas Dogit Profesional",
+    "description": "Corta Uñas Dogit Profesional: Cortauñas de alta calidad diseñado para un corte preciso y seguro de las uñas de tu mascota. Su diseño ergonómico y cuchillas de acero inoxidable aseguran una experiencia cómoda y eficaz",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/175888-1000-1000/228299.jpg?v=637511796861600000"
+    ],
+    "price": 28900,
+    "stock": 11
+  },
+  {
+    "_id": "fbcbcc667d6fbecc377a1d01",
+    "title": "Limpia Patas Rast Silicona",
+    "description": "El Limpia Patas Rast Silicona es ideal para tenerlo a mano después de los viajes, paseos o incluso para uso en su hogar. Es muy simple y fácil de usar.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/175533-1000-1000/229264.png?v=637499498105800000"
+    ],
+    "price": 54475,
+    "stock": 12
+  },
+  {
+    "_id": "8bb1bdcb1576964cfa39a20c",
+    "title": "Cepillo Para Perros M-Pets Bamboo",
+    "description": "La mejor opción para acicalar, peinar, desenredar, activar la circulación sanguínea, distribuir los aceites naturales de tu mascota y favorecer el brillo y brillo del pelaje de tu animal.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/197097-1000-1000/237967.jpg?v=638588197024570000"
+    ],
+    "price": 16750,
+    "stock": 13
+  },
+  {
+    "_id": "062e004d4eef952ae8377a6c",
+    "title": "Piedra Vainilla x 3,6kg Alta Gama",
+    "description": "Las piedras sanitarias vainilla son faciles de usar y de limpiar, lo que simplifica la tarea de mantener el arenero de tu gato en perfecta condiciones.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/197130-1000-1000/251284.jpg?v=638592385648900000"
+    ],
+    "price": 4945,
+    "stock": 14
+  },
+  {
+    "_id": "edb8b2a95e1a6b9cd4c789e5",
+    "title": "Piedras Sanitarias Tidy Cats",
+    "description": "Las Piedras Sanitarias Tidy Cats son ideales para mantener la comodidad e higiene de tu gato en todo momento y por tiempo prolongado. Son la mejor opción porque no se pegan a sus patitas, su poder aglutinante facilita la limpieza y cuentan con una gran absorción, por lo que no tendrás líquidos en tu caja.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/193913-1000-1000/251316.jpg?v=638252801782730000",
+      "image.png"
+    ],
+    "price": 3700,
+    "stock": 15
+  },
+  {
+    "_id": "c0cfead91fac6adee2aefaf4",
+    "title": "Shampoo Aloe Vera Porta - 500 Ml",
+    "description": "El Shampoo Aloe Vera Porta está especialmente formulado para perros y gatos con piel sensible. Contiene aloe vera, un ingrediente conocido por sus propiedades calmantes y curativas, que hidrata y protege la piel de tu mascota.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/162831-1000-1000/Aloe-Vera.gif?v=636548965108800000"
+    ],
+    "price": 17700,
+    "stock": 16
+  },
+  {
+    "_id": "de4cd1ed14cb16b2885e4fa2",
+    "title": "Snack Mon Ami Dental Clean Sabor Pollo",
+    "description": "Los Snacks Mon Ami Dental Clean Sabor Pollo, son ideales para mantener la salud bucal de tu mascota de manera fácil, práctica y segura. Su textura porosa genera un efecto de pulido que promueve una limpieza dental efectiva, lo que ayuda a prevenir enfermedades y mejora el aliento de tu mascota.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/196248-1000-1000/233060.png?v=638488703881230000"
+    ],
+    "price": 8240,
+    "stock": 17
+  },
+  {
+    "_id": "88ce63f093484d8c67f1cd50",
+    "title": "Juguete Cancat Aro Dental Soft",
+    "description": "El Aro Cancat, está confeccionado con caucho termoplastico extra resistente, un material flexible que contribuye al cuidado de dientes y encías.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/174012-1000-1000/221172.jpg?v=637434938247070000"
+    ],
+    "price": 12700,
+    "stock": 18
+  },
+  {
+    "_id": "a0f144538ffca84cb3fe308d",
+    "title": "Porta Bolsas De Residuos Hund Paris Flores Rosas",
+    "description": "Porta Bolsas de Residuos Hund Paris Flores Rosas: Accesorio elegante y práctico para llevar bolsas higiénicas durante los paseos con tu mascota.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/190751-1000-1000/224511.jpg?v=638054133917830000"
+    ],
+    "price": 15987,
+    "stock": 19
+  },
+  {
+    "_id": "4cab794a5adb7e346a2ba9df",
+    "title": "Bolsas Eco Cancat - 160 Unidades",
+    "description": "Bolsas biodegradables por 160 unidades.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/171497-1000-1000/221120.jpg?v=637290590205030000"
+    ],
+    "price": 11850,
+    "stock": 20
+  },
+  {
+    "_id": "7e7ea67f04af623dcc2f6ff7",
+    "title": "Transportadora Eco M-Pets Negro y Verde",
+    "description": "Transportadora ecoplastico, con material reforzado para poder viajar con tus mascotas a donde quieras.",
+    "category": "higiene y salud",
+    "thumbnails": [
+      "https://puppis.vteximg.com.br/arquivos/ids/197054-1000-1000/237922.jpg?v=638588196780870000"
+    ],
+    "price": 51350,
+    "stock": 3
   }
 ]

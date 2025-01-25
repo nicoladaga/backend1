@@ -2,8 +2,8 @@ import usersManager from "../data/fs/users.fs.js";
 
 const readOneUser = async (req, res, next) => {
     try {
-        const { pid } = req.params;
-        const one = await usersManager.readOne(pid);
+        const { uid } = req.params;
+        const one = await usersManager.readOne(uid);
         if (one) {
             return res.status(200).json({ response: one });
         }

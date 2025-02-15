@@ -1,0 +1,80 @@
+<section class="container mt-5">
+    {{#if product}}
+    <h1 class="mb-4">Detalle del Producto</h1>
+    
+    <div class="row">
+        <!-- Columna de imagen del producto -->
+        <div class="col-md-6">
+            <!-- Carrusel de imágenes -->
+            <div id="carousel-{{product._id}}" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    {{#each product.thumbnails}}
+                    <div class="carousel-item {{#if @first}}active{{/if}}">
+                        <img src="{{this}}" class="d-block w-100" alt="Imagen del producto {{product._id}}" style="height: 300px; object-fit: contain">
+                    </div>
+                    {{/each}}
+                </div>
+                <!-- Controles del carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{product._id}}" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{product._id}}" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+            <!-- Miniaturas de las imágenes -->
+            <div class="mt-2">
+                <div class="d-flex justify-content-start">
+                    {{#each product.thumbnails}}
+                    <img src="{{this}}" class="img-thumbnail me-2" style="width: 60px; height: 60px; object-fit: contain; cursor: pointer;" data-bs-target="#carousel-{{product._id}}" data-bs-slide-to="{{@index}}" onclick="changeMainImage({{@index}})">
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna de detalles del producto -->
+        <div class="col-md-6">
+            <h2>{{product.title}}</h2>
+            <h3 class="text-primary">$ {{product.price}}</h3>
+            <h4>{{product.stock}} unidades disponibles</h4>
+            <p class="mt-4">{{product.description}}</p>
+
+            <!-- Botón para añadir al carrito -->
+            <button class="btn btn-success mt-3">Añadir al carrito</button>
+        </div>
+    </div>
+    {{else}}
+    <h3>Producto no encontrado!</h3>
+    {{/if}}
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function changeMainImage(index) {
+        var carousel = document.querySelector('#carousel-{{product._id}}');
+        var carouselInstance = new bootstrap.Carousel(carousel);
+        
+        // Deshabilitar la interacción temporalmente para evitar clics rápidos
+        disableThumbnails(true);
+
+        // Cambiar la imagen activa al índice de la miniatura clickeada
+        carouselInstance.to(index);  
+
+        // Esperar a que el carrusel termine la transición antes de habilitar los clics nuevamente
+        carousel.addEventListener('slid.bs.carousel', function() {
+            disableThumbnails(false); // Habilitar miniaturas después de la animación
+        }, { once: true });
+    }
+
+    // Función para habilitar/deshabilitar clics en las miniaturas
+    function disableThumbnails(disable) {
+        const thumbnails = document.querySelectorAll('.img-thumbnail');
+        thumbnails.forEach(thumbnail => {
+            thumbnail.style.pointerEvents = disable ? 'none' : 'auto';
+        });
+    }
+</script>

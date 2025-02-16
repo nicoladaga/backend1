@@ -36,6 +36,27 @@ const cartView = (req, res, next) => {
         next(error);
     }
 };
+const registerView = (req, res, next) => {
+    try {
+        const data = {
+            title: "Real Register",
+        };
+        return res.status(200).render("realRegister", data);
+    } catch (error) {
+        next(error);
+    }
+};
+
+const addProductView = (req, res, next) => {
+    try {
+        const data = {
+            title: "Real Product",
+        };
+        return res.status(200).render("realTimeProducts", data);
+    } catch (error) {
+        next(error);
+    }
+};
 
 const profileView = (req, res, next) => {
     try {
@@ -48,4 +69,4 @@ const profileView = (req, res, next) => {
     }
 };
 
-export { indexView, productView, cartView, profileView };
+export { indexView, productView, cartView, profileView, registerView, addProductView };

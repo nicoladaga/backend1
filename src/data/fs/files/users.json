@@ -22,5 +22,17 @@
     "password": "localhost4",
     "email": "pimpa@gmail.com",
     "birthday": "02/05/1095"
+  },
+  {
+    "_id": "db2be1f9989b9f4fe0d0ff9f",
+    "email": "peperoni@hdfsjhf",
+    "password": "45341",
+    "avatar": ""
+  },
+  {
+    "_id": "20e1d3f3b032ddcba64ff0ad",
+    "email": "victoria@persona.com",
+    "password": "951",
+    "avatar": "https://media.istockphoto.com/id/2099403180/photo/laughing-yougn-businesswoman-standing-with-her-arms-crossed-against-an-office-wall.jpg?s=1024x1024&w=is&k=20&c=BqAmUmk3ja-I3Ehc4jgk8eJG4jDu5ucG0uxQz7OeST0="
   }
 ]

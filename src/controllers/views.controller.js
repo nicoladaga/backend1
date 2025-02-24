@@ -1,11 +1,19 @@
-import productsManager from "../data/fs/products.fs.js";
+// import productsManager from "../data/fs/products.fs.js";
+import productsManager from "../data/products.mongo.js";
 
 const indexView = async (req, res, next) => {
     try {
-        const all = await productsManager.readAll();
+        const all = await productsManager.read();
+
+        const processedProducts = all.map(product => ({
+            ...product,
+            _id: product._id.toString(),
+        }));
+
+
         const data = {
             title: "Home",
-            products: all,
+            products: processedProducts,
         };
         return res.status(200).render("index", data);
     } catch (error) {
@@ -15,8 +23,10 @@ const indexView = async (req, res, next) => {
 
 const productView = async (req, res, next) => {
     try {
+
         const { pid } = req.params;
-        const one = await productsManager.readOne(pid);
+        // const one = await productsManager.readOne(pid);
+        const one = await productsManager.readById(pid)
         const data = {
             title: "Product Detail",
             product: one,

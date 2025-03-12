@@ -29,7 +29,12 @@ socketServer.on("connection", socketHelper)
 export { socketServer }
 
 /* template engine */
-server.engine("handlebars", engine());
+server.engine("handlebars", engine({
+    helpers: {
+        json: (context) => JSON.stringify(context),
+        gt: (v1, v2) => v1 > v2
+    }
+}));
 server.set("view engine", "handlebars");
 server.set("views", __dirname + "/src/views");
 /* Register the helper for comparison */

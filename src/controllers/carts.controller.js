@@ -73,9 +73,25 @@ const removeProductFromCart = async (req, res, next) => {
     }
 };
 
+const totalToPay = async (req, res, next) => {
+
+    try {
+        const { uid } = req.params
+        const total = await cartsManager.totalToPay(u)
+        return res.status(200).json({
+            method: req.method,
+            url: req.url,
+            response: total
+        })
+    } catch (error) {
+        next(error)
+    }
+}
+
 export {
     addProductToCart,
     readProductsFromUser,
     updateQuantity,
     removeProductFromCart,
+    totalToPay
 };

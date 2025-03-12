@@ -1,5 +1,6 @@
 // import productsManager from "../data/fs/products.fs.js";
 import productsManager from "../data/products.mongo.js";
+import cartsManager from "../data/carts.mongo.js";
 
 const indexView = async (req, res, next) => {
     try {
@@ -36,10 +37,19 @@ const productView = async (req, res, next) => {
         next(error);
     }
 };
-const cartView = (req, res, next) => {
+const cartView = async (req, res, next) => {
+    // const { user_id } = req.params
+    const all = await cartsManager.totalToPay("67bc900f041a7f6b1d476d6f");
+
+    // const processedCarts = all.map(cart => ({
+    //     ...cart,
+    //     _id: cart._id.toString(),
+    // }));
+
     try {
         const data = {
             title: "Cart",
+            cart: all
         };
         return res.status(200).render("cart", data);
     } catch (error) {
@@ -56,6 +66,17 @@ const registerView = (req, res, next) => {
         next(error);
     }
 };
+
+const loginView = (req, res, next) => {
+    try {
+        const data = {
+            title: "Login"
+        }
+        return res.status(200).render("login", data)
+    } catch (error) {
+        next(error)
+    }
+}
 
 const addProductView = (req, res, next) => {
     try {
@@ -79,4 +100,4 @@ const profileView = (req, res, next) => {
     }
 };
 
-export { indexView, productView, cartView, profileView, registerView, addProductView };
+export { indexView, productView, cartView, profileView, registerView, addProductView, loginView };

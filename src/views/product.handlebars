@@ -43,7 +43,8 @@
             <p class="mt-4">{{product.description}}</p>
 
             <!-- Botón para añadir al carrito -->
-            <button class="btn btn-success mt-3">Añadir al carrito</button>
+            <button class="btn btn-success mt-3" onclick="addToCart('{{product._id}}')">Añadir al carrito</button>
+
         </div>
     </div>
     {{else}}
@@ -76,5 +77,30 @@
         thumbnails.forEach(thumbnail => {
             thumbnail.style.pointerEvents = disable ? 'none' : 'auto';
         });
+    }
+</script>
+<script>
+    async function addToCart(productId) {
+        const userId = "67bc900f041a7f6b1d476d6f"; // ID del usuario, modificar según el caso
+        const quantity = 1;
+
+        try {
+            const response = await fetch('/api/carts', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ product_id: productId, user_id: userId, quantity })
+            });
+
+            if (!response.ok) {
+                throw new Error('Error al añadir el producto al carrito');
+            }
+
+            alert('Producto añadido al carrito exitosamente');
+        } catch (error) {
+            console.error('Error:', error);
+            alert('Hubo un problema al añadir el producto al carrito');
+        }
     }
 </script>

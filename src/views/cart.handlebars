@@ -1,0 +1,88 @@
+<section class="container mt-5">
+  <h1>Carrito de Compras</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Email</th>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Subtotal</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{!-- Se asume que el controlador pasa a la vista una variable "cart" que es un array con un único objeto --}}
+      {{#with cart.[0]}}
+        {{#each products}}
+          <tr>
+            <td>{{../email}}</td>
+            <td>{{this.title}}</td>
+            <td>$ {{this.price}}</td>
+            <td>
+              <button class="btn btn-sm btn-secondary" onclick="updateQuantity('{{this.cart_id}}', {{this.quantity}}, -1)">-</button>
+              <span id="quantity-{{this.cart_id}}">{{this.quantity}}</span>
+              <button class="btn btn-sm btn-secondary" onclick="updateQuantity('{{this.cart_id}}', {{this.quantity}}, 1)">+</button>
+            </td>
+            <td>$ {{this.subtotal}}</td>
+            <td>
+              <button class="btn btn-danger" onclick="removeFromCart('{{this.cart_id}}')">Eliminar</button>
+            </td>
+          </tr>
+        {{/each}}
+      {{/with}}
+    </tbody>
+  </table>
+
+  {{!-- Mostrar total del carrito --}}
+  {{#with cart.[0]}}
+    <h3>Total: $ {{this.total}}</h3>
+  {{/with}}
+
+  <button class="btn btn-success" onclick="finalizarCompra()">Finalizar Compra</button>
+  <button class="btn btn-warning" onclick="cancelarCompra()">Cancelar Compra</button>
+</section>
+
+<script>
+  // Función para actualizar la cantidad del producto
+  async function updateQuantity(cartId, currentQuantity, change) {
+    const newQuantity = currentQuantity + change;
+    if (newQuantity < 1) return;
+    const response = await fetch(`../../api/carts/${cartId}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ quantity: newQuantity })
+    });
+    if (response.ok) location.reload();
+  }
+
+  // Función para eliminar un producto del carrito
+  async function removeFromCart(cartId) {
+    const response = await fetch(`../../api/carts/${cartId}`, { method: 'DELETE' });
+    if (response.ok) location.reload();
+  }
+
+  // Función que elimina todos los productos del carrito
+  async function removeAllProducts() {
+    // La variable global "cartProducts" se carga al inicio
+    if (!window.cartProducts) return;
+    for (let product of window.cartProducts) {
+      await fetch(`../../api/carts/${product.cart_id}`, { method: 'DELETE' });
+    }
+    location.reload();
+  }
+
+  // Botones para finalizar o cancelar la compra: eliminan todos los productos
+  function finalizarCompra() {
+    removeAllProducts();
+  }
+  function cancelarCompra() {
+    removeAllProducts();
+  }
+
+  // Al cargar la página, se guarda la lista de productos en una variable global
+  window.addEventListener('DOMContentLoaded', () => {
+    // Se usa el helper "json" para imprimir la variable sin escapar
+    window.cartProducts = {{{json cart.[0].products}}};
+  });
+</script>

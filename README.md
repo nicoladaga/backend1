@@ -4,6 +4,12 @@
 Si deseas instalar este proyecto, puedes hacerlo mediante git con el siguiente link:
 https://github.com/nicoladaga/backend1.git
 
+<ins>Luego crea un archivo .env en la raiz del proyecto con los siguientes datos</ins>
+
+PORT = 8080
+
+MONGO = mongodb+srv://backendProject:1234@cluster0.ho2zz.mongodb.net/backend
+
 ## Ejecución
 
 En el repositorio del proyecto vas a poder ejecutar:
@@ -93,8 +99,54 @@ Buscamos el producto que deseamos borrar de la lista y hacemos click al boton El
 luego de eliminar 
 ![image](https://github.com/user-attachments/assets/d5d4489c-2863-4996-9687-d7cf42d57503)
 
+# ENTREGA FINAL :orange_book:
+ Ahora los gestores de Users y Products quedan configurados (el código previo para files queda comentado)
+ Por ende, los endpoints siguen siendo los mismos pero ahora los datos se almacenan en la nube de Mongo.
+ 
+## Se agrega el gestor de Carts(también en mongo) que utiliza los siguientes endpoints
+
+:pushpin: Add Product to Cart
+method: POST
+url: http://localhost:8080/api/carts
+body: {"product_id, "user_id", "quantity"}
+![image](https://github.com/user-attachments/assets/2e5fd37f-2903-43cd-8d35-c9dc58169b09)
+
+:pushpin: Read Product From User
+method: GET
+url: http://localhost:8080/api/carts/users/:user_id
+req: user_id
+![image](https://github.com/user-attachments/assets/188bd741-19aa-4461-b3e1-be72c3398405)
+
+:pushpin: Update Quantity
+method: PUT
+url: http://localhost:8080/api/carts/:cart_id
+req: cart_id
+body: {"quantity"}
+![image](https://github.com/user-attachments/assets/f4d02dcd-2775-435d-8984-b73fe8978afa)
+
+:pushpin: Remove from Cart
+method: DELETE
+url: http://localhost:8080/api/carts/:cart_id
+req: cart_id
+![image](https://github.com/user-attachments/assets/aeb2998a-09f2-410d-a119-5dc81d8bfaae)
+
+:pushpin: Total to Pay
+method: GET
+url: http://localhost:8080/api/carts/total/:uid
+req: user_id
+![image](https://github.com/user-attachments/assets/c2c5e7a2-7f89-41bb-98b9-f9f0893333f0)
 
 
+
+## Se agregó la vista users/loging  - (NO FUNCIONAL)
+
+![image](https://github.com/user-attachments/assets/cb52a1a8-ab1a-46e1-8904-ea58eb732890)
+
+## Se agregó la vista carts/user/user_Id con user hardcode
+
+![image](https://github.com/user-attachments/assets/e4df4f14-c124-4a09-b347-914b8212114e)
+
+La misma permite ver la información del producto, agregar o restar cantidad, eliminar un producto y borrar el carrito completo al finalizar o cancelar la compra.
 
 
 

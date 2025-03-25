@@ -77,7 +77,7 @@ const totalToPay = async (req, res, next) => {
 
     try {
         const { uid } = req.params
-        const total = await cartsManager.totalToPay(u)
+        const total = await cartsManager.totalToPay(uid)
         return res.status(200).json({
             method: req.method,
             url: req.url,
